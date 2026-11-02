@@ -1,0 +1,52 @@
+{
+  "name": "ghana-utils",
+  "version": "0.1.0",
+  "description": "Helpers for Ghana: phone validation, network detection, cedi formatting and more",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "vitest run",
+    "dev": "vitest",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "keywords": [
+    "ghana",
+    "phone",
+    "validation",
+    "cedi",
+    "mtn",
+    "telecel",
+    "momo"
+  ],
+  "author": "YOUR_NAME",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^9.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/ghana-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/ghana-utils/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/ghana-utils#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
