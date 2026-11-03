@@ -30,7 +30,7 @@
     "telecel",
     "momo"
   ],
-  "author": "YOUR_NAME",
+  "author": "Zisung Usumanu",
   "license": "MIT",
   "devDependencies": {
     "tsup": "^9.0.0",
@@ -39,12 +39,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/ghana-utils.git"
+    "url": "git+https://github.com/Abdulai059/ghana-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/ghana-utils/issues"
+    "url": "https://github.com/Abdulai059/ghana-utils/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/ghana-utils#readme",
+  "homepage": "https://github.com/Abdulai059/ghana-utils#readme",
   "engines": {
     "node": ">=18"
   },

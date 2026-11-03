@@ -5,7 +5,7 @@ Thanks for helping! Bug reports, wrong prefixes and new helper ideas are all wel
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ghana-utils.git
+git clone https://github.com/Abdulai059/ghana-utils.git
 cd ghana-utils
 npm install
 npm test
