@@ -1,6 +1,6 @@
 # ghana-utils
 
-Small, zero-dependency helpers for Ghana: phone validation, network detection and cedi formatting.
+Small, zero-dependency helpers for Ghana: phone validation, network detection and cedi formatting. 
 
 ## Install
 
